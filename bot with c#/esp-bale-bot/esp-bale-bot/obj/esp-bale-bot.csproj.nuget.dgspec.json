@@ -1,0 +1,86 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Amir\\Desktop\\project\\bot with c#\\esp-bale-bot\\esp-bale-bot\\esp-bale-bot.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Amir\\Desktop\\project\\bot with c#\\esp-bale-bot\\esp-bale-bot\\esp-bale-bot.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Amir\\Desktop\\project\\bot with c#\\esp-bale-bot\\esp-bale-bot\\esp-bale-bot.csproj",
+        "projectName": "esp-bale-bot",
+        "projectPath": "C:\\Users\\Amir\\Desktop\\project\\bot with c#\\esp-bale-bot\\esp-bale-bot\\esp-bale-bot.csproj",
+        "packagesPath": "C:\\Users\\Amir\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Amir\\Desktop\\project\\bot with c#\\esp-bale-bot\\esp-bale-bot\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Amir\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "M2MqttDotnetCore": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "MQTTnet": {
+              "target": "Package",
+              "version": "[4.3.3.952, )"
+            },
+            "Telegram.Bot": {
+              "target": "Package",
+              "version": "[16.0.0, )"
+            },
+            "WTelegramClient": {
+              "target": "Package",
+              "version": "[3.6.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
