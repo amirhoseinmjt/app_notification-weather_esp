@@ -8,6 +8,7 @@
 #include <ArduinoJson.h>
 #include <base64.h>
 
+
 #define OLED_ADDR   0x3C
 Adafruit_SSD1306 display(128, 64, &Wire, -1);
 

@@ -1,18 +1,18 @@
 esp32:
-	connect to wifi
-	connect to mqtt server
-	subscribe to mqtt server
-	get number of new massages on Bale Bot
-	get number of new massages on Telegram Bot
+	| connect to wifi|
+	| connect to mqtt server
+	| subscribe to mqtt server
+	| get number of new massages on Bale Bot
+	| get number of new massages on Telegram Bot
 python code:
-	connect to mqtt server
-	publish to mqtt server
-	get number of new massages on Bale Bot from API
-	get number of new massages on Telegram Bot from API
+	| connect to mqtt server
+	| publish to mqtt server
+	| get number of new massages on Bale Bot from API
+	| get number of new massages on Telegram Bot from API
 
 python packages :
-	pytho-telegram-bot
-	paho mqtt client
+	| pytho-telegram-bot
+	| paho mqtt client
 
 arduino packages :
 	#include <Wire.h>
@@ -27,9 +27,9 @@ arduino packages :
 
 
 api calls :
-	http://api.openweathermap.org/data/2.5/weather?q=Tehran&appid=<id>
-	telegram.Bot
-	telegram.Bot with basaurl of :https://tapi.bale.ai/
+	| http://api.openweathermap.org/data/2.5/weather?q=Tehran&appid=<id>
+	| telegram.Bot
+	| telegram.Bot with basaurl of :https://tapi.bale.ai/
 ## Supported Tar	gets
 
 Currently this example supports the following targets.
